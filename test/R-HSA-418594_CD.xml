@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" level="2" version="4">
+    <model id="untitled" metaid="untitled">
+        <listOfCompartments>
+            <compartment id="default" size="1.0" units="volume" metaid="default"/>
+            <compartment id="compartmentVertex_70101_1" name="cytosol" size="1.0" units="volume" outside="default" metaid="compartmentVertex_70101_1">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:name>cytosol</celldesigner:name>
+                    </celldesigner:extension>
+                </annotation>
+            </compartment>
+        </listOfCompartments>
+        <listOfSpecies>
+            <species id="entityVertex_392049_9359" name="G_minus_protein_space_alpha_space_(z):GTP:Adenylate_space_cyclase" compartment="default" initialAmount="0.0" metaid="entityVertex_392049_9359">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_protein_space_alpha_space_(z):GTP:Adenylate_space_cyclase</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29438_9161" name="GTP" compartment="default" initialAmount="0.0" metaid="entityVertex_29438_9161">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>GTP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29372_8978" name="Pi" compartment="default" initialAmount="0.0" metaid="entityVertex_29372_8978">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>Pi</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_396910_22" name="G_minus_protein_space_alpha_space_(i):GTP:Adenylate_space_cyclase" compartment="default" initialAmount="0.0" metaid="entityVertex_396910_22">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_protein_space_alpha_space_(i):GTP:Adenylate_space_cyclase</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29420_9159" name="GDP" compartment="default" initialAmount="0.0" metaid="entityVertex_29420_9159">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>GDP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_749445_3271" name="Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi:Heterotrimeric_space_G_minus_protein_space_Gi_space_(active)" compartment="default" initialAmount="0.0" metaid="entityVertex_749445_3271">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi:Heterotrimeric_space_G_minus_protein_space_Gi_space_(active)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8949487_8776" name="GPSM1,_space_GPSM3,(GPSM2,_space_PCP2)" compartment="default" initialAmount="0.0" metaid="entityVertex_8949487_8776">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>UNKNOWN</celldesigner:class>
+                            <celldesigner:name>GPSM1,_space_GPSM3,(GPSM2,_space_PCP2)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_380073_2197"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_30389_9357" name="cAMP" compartment="default" initialAmount="0.0" metaid="entityVertex_30389_9357">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>cAMP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_167434_328" name="G_minus_protein_space_beta_minus_gamma_space_complex" compartment="default" initialAmount="0.0" metaid="entityVertex_167434_328">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_protein_space_beta_minus_gamma_space_complex</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_170665_21" name="Adenylate_space_cyclase_space_(Mg2_plus__space_cofactor)" compartment="default" initialAmount="0.0" metaid="entityVertex_170665_21">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>Adenylate_space_cyclase_space_(Mg2_plus__space_cofactor)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8982649_9054" name="G_minus_alpha(t):GTP:G_minus_beta_minus_gamma:Opsins" compartment="default" initialAmount="0.0" metaid="entityVertex_8982649_9054">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_alpha(t):GTP:G_minus_beta_minus_gamma:Opsins</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_9628701_9360" name="SRC" compartment="default" initialAmount="0.0" metaid="entityVertex_9628701_9360">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>PROTEIN</celldesigner:class>
+                            <celldesigner:proteinReference>prot_entityVertex_9628701_9360</celldesigner:proteinReference>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_420877_9123" name="G_minus_alpha(t)_minus_GDP:G_minus_beta_minus_gamma" compartment="default" initialAmount="0.0" metaid="entityVertex_420877_9123">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_alpha(t)_minus_GDP:G_minus_beta_minus_gamma</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_111885_9308" name="Opioid_space_Signalling" compartment="default" initialAmount="0.0" metaid="entityVertex_111885_9308">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>PHENOTYPE</celldesigner:class>
+                            <celldesigner:name>Opioid_space_Signalling</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_163622_9358" name="G_space_alpha_space_(s):GTP:Adenylate_space_cyclase" compartment="default" initialAmount="0.0" metaid="entityVertex_163622_9358">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_alpha_space_(s):GTP:Adenylate_space_cyclase</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_392129_9354"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_921124_8058" name="RGS_space_proteins_space_active_space_for_space_G_space_alpha_space_(i)" compartment="default" initialAmount="0.0" metaid="entityVertex_921124_8058">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>UNKNOWN</celldesigner:class>
+                            <celldesigner:name>RGS_space_proteins_space_active_space_for_space_G_space_alpha_space_(i)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_392212_16"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_113592_9355" name="ATP" compartment="default" initialAmount="0.0" metaid="entityVertex_113592_9355">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>ATP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29420_1159" name="GDP" compartment="default" initialAmount="0.0" metaid="entityVertex_29420_1159">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>GDP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_420891_9158" name="G_minus_alpha(t)_minus_GTP" compartment="default" initialAmount="0.0" metaid="entityVertex_420891_9158">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_alpha(t)_minus_GTP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29372_9300" name="Pi" compartment="default" initialAmount="0.0" metaid="entityVertex_29372_9300">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>Pi</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8964276_9298" name="p_minus_Y419_minus_SRC" compartment="default" initialAmount="0.0" metaid="entityVertex_8964276_9298">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>PROTEIN</celldesigner:class>
+                            <celldesigner:proteinReference>prot_entityVertex_8964276_9298</celldesigner:proteinReference>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_419779_1674" name="Opsins:photon" compartment="default" initialAmount="0.0" metaid="entityVertex_419779_1674">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>Opsins:photon</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_8982637_9122"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_8982640_9157"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_420883_1671"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8964344_8813" name="G_space_alpha_space_(i):GTP:SRC_minus_1" compartment="default" initialAmount="0.0" metaid="entityVertex_8964344_8813">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_alpha_space_(i):GTP:SRC_minus_1</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_8964242_8826"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8982011_8841" name="G_space_alpha_space_(i):GTP:RGS" compartment="default" initialAmount="0.0" metaid="entityVertex_8982011_8841">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_alpha_space_(i):GTP:RGS</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_8982020_8845"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_749455_3237" name="Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi:Heterotrimeric_space_G_minus_protein_space_Gi_space_(inactive)" compartment="default" initialAmount="0.0" metaid="entityVertex_749455_3237">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi:Heterotrimeric_space_G_minus_protein_space_Gi_space_(inactive)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_380073_2197"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_380073_2197"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_397795_9301" name="G_minus_protein_space_beta:gamma_space_signalling" compartment="default" initialAmount="0.0" metaid="entityVertex_397795_9301">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>PHENOTYPE</celldesigner:class>
+                            <celldesigner:name>G_minus_protein_space_beta:gamma_space_signalling</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_392164_18" name="G_minus_protein_space_alpha_space_(i):GDP" compartment="default" initialAmount="0.0" metaid="entityVertex_392164_18">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_protein_space_alpha_space_(i):GDP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8964231_8827" name="G_space_protein_space_alpha_space_(i):GTP:p_minus_Y419_minus_SRC" compartment="default" initialAmount="0.0" metaid="entityVertex_8964231_8827">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_protein_space_alpha_space_(i):GTP:p_minus_Y419_minus_SRC</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8982635_9053" name="G_minus_alpha(t):GDP:G_minus_beta_minus_gamma:Opsins" compartment="default" initialAmount="0.0" metaid="entityVertex_8982635_9053">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_minus_alpha(t):GDP:G_minus_beta_minus_gamma:Opsins</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8982015_8846" name="G_space_alpha_space_(i):GDP:RGS" compartment="default" initialAmount="0.0" metaid="entityVertex_8982015_8846">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_alpha_space_(i):GDP:RGS</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29438_1961" name="GTP" compartment="default" initialAmount="0.0" metaid="entityVertex_29438_1961">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>GTP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_392161_1758" name="G_space_alpha_space_(i):_space_GTP" compartment="default" initialAmount="0.0" metaid="entityVertex_392161_1758">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>G_space_alpha_space_(i):_space_GTP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                        <celldesigner:listOfCatalyzedReactions>
+                            <celldesigner:catalyzed reaction="reactionVertex_392212_16"/>
+                            <celldesigner:catalyzed reaction="reactionVertex_392212_16"/>
+                        </celldesigner:listOfCatalyzedReactions>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_380091_6948" name="Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi" compartment="default" initialAmount="0.0" metaid="entityVertex_380091_6948">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>UNKNOWN</celldesigner:class>
+                            <celldesigner:name>Ligand:GPCR_space_complexes_space_that_space_activate_space_Gi</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_113592_9204" name="ATP" compartment="default" initialAmount="0.0" metaid="entityVertex_113592_9204">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>ATP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_111294_9356" name="PPi" compartment="default" initialAmount="0.0" metaid="entityVertex_111294_9356">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>PPi</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_29370_9205" name="ADP" compartment="default" initialAmount="0.0" metaid="entityVertex_29370_9205">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+                            <celldesigner:name>ADP</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_8982016_8840" name="RGS1,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21" compartment="default" initialAmount="0.0" metaid="entityVertex_8982016_8840">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>UNKNOWN</celldesigner:class>
+                            <celldesigner:name>RGS1,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+            <species id="entityVertex_392165_6949" name="Heterotrimeric_space_G_minus_protein_space_Gi_space_(inactive)" compartment="default" initialAmount="0.0" metaid="entityVertex_392165_6949">
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+                        <celldesigner:speciesIdentity>
+                            <celldesigner:class>COMPLEX</celldesigner:class>
+                            <celldesigner:name>Heterotrimeric_space_G_minus_protein_space_Gi_space_(inactive)</celldesigner:name>
+                        </celldesigner:speciesIdentity>
+                    </celldesigner:extension>
+                </annotation>
+            </species>
+        </listOfSpecies>
+        <listOfReactions>
+            <reaction id="reactionVertex_8982012_8849" reversible="false" metaid="reactionVertex_8982012_8849">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_8982015_8846" metaid="reactionVertex_8982012_8849_meta1_entityVertex_8982015_8846">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982015_8846_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8982016_8840" metaid="reactionVertex_8982012_8849_meta2_entityVertex_8982016_8840">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982016_8840_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_392164_18" metaid="reactionVertex_8982012_8849_meta3_entityVertex_392164_18">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392164_18_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>DISSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_8982015_8846_alias1" species="entityVertex_8982015_8846">
+<celldesigner:linkAnchor position="N"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8982016_8840_alias1" species="entityVertex_8982016_8840">
+<celldesigner:linkAnchor position="ESE"/>
+                            </celldesigner:baseProduct>
+                            <celldesigner:baseProduct alias="entityVertex_392164_18_alias1" species="entityVertex_392164_18">
+<celldesigner:linkAnchor position="SE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="2"/>
+<celldesigner:lineDirection index="2" value="unknown" arm="2"/>
+<celldesigner:lineDirection index="3" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="0" num1="1" num2="3" tShapeIndex="0">0.12651747465133667,-0.08929165452718735 0.009317347779870033,-0.0033782399259507656 0.22341783344745636,0.3877441883087158 0.9761231541633606,0.1148318499326706 1.1076756715774536,-0.1335511952638626</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8982020_8845" reversible="false" metaid="reactionVertex_8982020_8845">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_8982011_8841" metaid="reactionVertex_8982020_8845_meta1_entityVertex_8982011_8841">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982011_8841_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8982015_8846" metaid="reactionVertex_8982020_8845_meta2_entityVertex_8982015_8846">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982015_8846_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_29372_9300" metaid="reactionVertex_8982020_8845_meta3_entityVertex_29372_9300">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29372_9300_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_8982011_8841" metaid="reactionVertex_8982020_8845_meta4_entityVertex_8982011_8841">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982011_8841_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_8982011_8841_alias1" species="entityVertex_8982011_8841">
+<celldesigner:linkAnchor position="S"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8982015_8846_alias1" species="entityVertex_8982015_8846">
+<celldesigner:linkAnchor position="N"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_29372_9300_alias1" product="entityVertex_29372_9300" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="ENE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.879425585269928,0.09482186287641525 0.0898677408695221,0.47977152466773987</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.41010183095932007,-0.002768685342743993 0.9783033132553101,0.010557230561971664 0.6258264183998108,0.00675352243706584</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_8982011_8841_alias1" modifiers="entityVertex_8982011_8841" type="CATALYSIS" targetLineIndex="-1,4" editPoints="0.6196205019950867,-0.31183916330337524 0.6205855011940002,-0.14796006679534912">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_8982011_8841_alias1" species="entityVertex_8982011_8841">
+    <celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8982637_9122" reversible="false" metaid="reactionVertex_8982637_9122">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_420877_9123" metaid="reactionVertex_8982637_9122_meta1_entityVertex_420877_9123">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_420877_9123_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_419779_1674" metaid="reactionVertex_8982637_9122_meta3_entityVertex_419779_1674">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_419779_1674_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8982635_9053" metaid="reactionVertex_8982637_9122_meta2_entityVertex_8982635_9053">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982635_9053_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_419779_1674" metaid="reactionVertex_8982637_9122_meta4_entityVertex_419779_1674">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_419779_1674_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_420877_9123_alias1" species="entityVertex_420877_9123">
+<celldesigner:linkAnchor position="SSE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8982635_9053_alias1" species="entityVertex_8982635_9053">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfReactantLinks>
+                            <celldesigner:reactantLink alias="entityVertex_419779_1674_alias1" reactant="entityVertex_419779_1674" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="SSW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.2264012098312378,0.517088770866394 1.2264012098312378,0.517088770866394</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:reactantLink>
+                        </celldesigner:listOfReactantLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="2">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.27970263361930847,0.17360255122184753 0.27970263361930847,0.17360255122184753 0.6387007832527161,0.17812536656856537</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_419779_1674_alias1" modifiers="entityVertex_419779_1674" type="CATALYSIS" targetLineIndex="-1,5" editPoints="0.4244404435157776,-0.32968470454216003">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_419779_1674_alias1" species="entityVertex_419779_1674">
+    <celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8964329_9297" reversible="false" metaid="reactionVertex_8964329_9297">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_8964231_8827" metaid="reactionVertex_8964329_9297_meta1_entityVertex_8964231_8827">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964231_8827_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8964276_9298" metaid="reactionVertex_8964329_9297_meta2_entityVertex_8964276_9298">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964276_9298_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_8964329_9297_meta3_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>DISSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_8964231_8827_alias1" species="entityVertex_8964231_8827">
+<celldesigner:linkAnchor position="W"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8964276_9298_alias1" species="entityVertex_8964276_9298">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                            <celldesigner:baseProduct alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="SE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="0" num1="1" num2="1" tShapeIndex="0">0.8414722084999084,0.5448376536369324 0.10747141391038895,-0.04964115098118782 0.3814429044723511,0.0697011649608612</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8982019_8839" reversible="false" metaid="reactionVertex_8982019_8839">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_8982019_8839_meta1_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_8982016_8840" metaid="reactionVertex_8982019_8839_meta2_entityVertex_8982016_8840">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982016_8840_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8982011_8841" metaid="reactionVertex_8982019_8839_meta3_entityVertex_8982011_8841">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982011_8841_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="SSE"/>
+                            </celldesigner:baseReactant>
+                            <celldesigner:baseReactant alias="entityVertex_8982016_8840_alias1" species="entityVertex_8982016_8840">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8982011_8841_alias1" species="entityVertex_8982011_8841">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="1" num1="1" num2="0" tShapeIndex="0">-0.009770147502422333,0.008553430438041687 0.05273876339197159,0.03879644349217415 -0.6866824626922607,1.4638444185256958</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_392212_16" reversible="false" metaid="reactionVertex_392212_16">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_392212_16_meta1_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_29372_8978" metaid="reactionVertex_392212_16_meta2_entityVertex_29372_8978">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29372_8978_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_392164_18" metaid="reactionVertex_392212_16_meta3_entityVertex_392164_18">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392164_18_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_392161_1758" metaid="reactionVertex_392212_16_meta4_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                    <modifierSpeciesReference species="entityVertex_921124_8058" metaid="reactionVertex_392212_16_meta5_entityVertex_921124_8058">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_921124_8058_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="WSW"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_29372_8978_alias1" species="entityVertex_29372_8978">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_392164_18_alias1" product="entityVertex_392164_18" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.1618196964263916,0.56285160779953 0.08536607772111893,0.7317067980766296</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.673450231552124,0.14064635336399078 1.0285300016403198,0.05812111496925354 0.8074798583984375,0.18659080564975739</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_392161_1758_alias1" modifiers="entityVertex_392161_1758" type="CATALYSIS" targetLineIndex="-1,6" editPoints="0.7539160847663879,0.2907196283340454 0.7918734550476074,0.13652470707893372">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+    <celldesigner:linkAnchor position="W"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                            <celldesigner:modification aliases="entityVertex_921124_8058_alias1" modifiers="entityVertex_921124_8058" type="PHYSICAL_STIMULATION" targetLineIndex="-1,4" editPoints="1.0712709426879883,0.2507314085960388">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_921124_8058_alias1" species="entityVertex_921124_8058">
+    <celldesigner:linkAnchor position="N"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_749454_6950" reversible="false" metaid="reactionVertex_749454_6950">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_749445_3271" metaid="reactionVertex_749454_6950_meta1_entityVertex_749445_3271">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_749445_3271_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_167434_328" metaid="reactionVertex_749454_6950_meta2_entityVertex_167434_328">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_167434_328_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_749454_6950_meta3_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_380091_6948" metaid="reactionVertex_749454_6950_meta4_entityVertex_380091_6948">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_380091_6948_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>DISSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_749445_3271_alias1" species="entityVertex_749445_3271">
+<celldesigner:linkAnchor position="SE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_167434_328_alias1" species="entityVertex_167434_328">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseProduct>
+                            <celldesigner:baseProduct alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_380091_6948_alias1" product="entityVertex_380091_6948" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SSE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+        <celldesigner:lineDirection index="3" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.0934767723083496,-0.14290852844715118 0.31154346466064453,-0.47936534881591797 1.1248714923858643,-0.25853830575942993</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="0" num1="1" num2="1" tShapeIndex="0">0.3740636110305786,0.15433603525161743 0.8117730021476746,0.16871437430381775 -0.6166033148765564,0.4374949634075165</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_749456_6947" reversible="false" metaid="reactionVertex_749456_6947">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_392165_6949" metaid="reactionVertex_749456_6947_meta1_entityVertex_392165_6949">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392165_6949_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_380091_6948" metaid="reactionVertex_749456_6947_meta2_entityVertex_380091_6948">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_380091_6948_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_749455_3237" metaid="reactionVertex_749456_6947_meta3_entityVertex_749455_3237">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_749455_3237_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_392165_6949_alias1" species="entityVertex_392165_6949">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseReactant>
+                            <celldesigner:baseReactant alias="entityVertex_380091_6948_alias1" species="entityVertex_380091_6948">
+<celldesigner:linkAnchor position="SSE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_749455_3237_alias1" species="entityVertex_749455_3237">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="1" num1="1" num2="0" tShapeIndex="0">0.11478987336158752,0.07343176752328873 -0.05915282294154167,0.24761265516281128 0.3526257872581482,0.36032119393348694</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_380073_2197" reversible="false" metaid="reactionVertex_380073_2197">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_749455_3237" metaid="reactionVertex_380073_2197_meta1_entityVertex_749455_3237">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_749455_3237_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_29438_1961" metaid="reactionVertex_380073_2197_meta3_entityVertex_29438_1961">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29438_1961_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_749445_3271" metaid="reactionVertex_380073_2197_meta2_entityVertex_749445_3271">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_749445_3271_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_29420_1159" metaid="reactionVertex_380073_2197_meta4_entityVertex_29420_1159">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29420_1159_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_749455_3237" metaid="reactionVertex_380073_2197_meta5_entityVertex_749455_3237">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_749455_3237_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                    <modifierSpeciesReference species="entityVertex_8949487_8776" metaid="reactionVertex_380073_2197_meta6_entityVertex_8949487_8776">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8949487_8776_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_749455_3237_alias1" species="entityVertex_749455_3237">
+<celldesigner:linkAnchor position="SSE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_749445_3271_alias1" species="entityVertex_749445_3271">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfReactantLinks>
+                            <celldesigner:reactantLink alias="entityVertex_29438_1961_alias1" reactant="entityVertex_29438_1961" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="SW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.5852775573730469,0.1446051448583603 0.5852775573730469,0.1446051448583603</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:reactantLink>
+                        </celldesigner:listOfReactantLinks>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_29420_1159_alias1" product="entityVertex_29420_1159" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="NW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.9088859558105469,-0.04849792271852493 0.22609111666679382,-0.07282686233520508</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="2">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+<celldesigner:lineDirection index="4" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.28903937339782715,-0.1242181807756424 0.28903937339782715,-0.1242181807756424 0.9581139087677002,0.1686934381723404 0.7637893557548523,-0.0728180781006813</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_749455_3237_alias1" modifiers="entityVertex_749455_3237" type="CATALYSIS" targetLineIndex="-1,6" editPoints="0.8141528964042664,0.12794315814971924 0.9144158959388733,-0.057334840297698975">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_749455_3237_alias1" species="entityVertex_749455_3237">
+    <celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                            <celldesigner:modification aliases="entityVertex_8949487_8776_alias1" modifiers="entityVertex_8949487_8776" type="INHIBITION" targetLineIndex="-1,4" editPoints="0.5053088665008545,0.14075185358524323">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_8949487_8776_alias1" species="entityVertex_8949487_8776">
+    <celldesigner:linkAnchor position="W"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_392206_2421" reversible="false" metaid="reactionVertex_392206_2421">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_392206_2421_meta1_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_170665_21" metaid="reactionVertex_392206_2421_meta2_entityVertex_170665_21">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_170665_21_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_396910_22" metaid="reactionVertex_392206_2421_meta3_entityVertex_396910_22">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_396910_22_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="S"/>
+                            </celldesigner:baseReactant>
+                            <celldesigner:baseReactant alias="entityVertex_170665_21_alias1" species="entityVertex_170665_21">
+<celldesigner:linkAnchor position="N"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_396910_22_alias1" species="entityVertex_396910_22">
+<celldesigner:linkAnchor position="SW"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.17832832038402557,0.16833989322185516</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8964242_8826" reversible="false" metaid="reactionVertex_8964242_8826">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_8964344_8813" metaid="reactionVertex_8964242_8826_meta1_entityVertex_8964344_8813">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964344_8813_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_113592_9204" metaid="reactionVertex_8964242_8826_meta3_entityVertex_113592_9204">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_113592_9204_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_29370_9205" metaid="reactionVertex_8964242_8826_meta2_entityVertex_29370_9205">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29370_9205_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_8964231_8827" metaid="reactionVertex_8964242_8826_meta4_entityVertex_8964231_8827">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964231_8827_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_8964344_8813" metaid="reactionVertex_8964242_8826_meta5_entityVertex_8964344_8813">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964344_8813_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_8964344_8813_alias1" species="entityVertex_8964344_8813">
+<celldesigner:linkAnchor position="SSE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_29370_9205_alias1" species="entityVertex_29370_9205">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfReactantLinks>
+                            <celldesigner:reactantLink alias="entityVertex_113592_9204_alias1" reactant="entityVertex_113592_9204" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="WSW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.43308791518211365,0.13270021975040436 0.43308791518211365,0.13270021975040436</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:reactantLink>
+                        </celldesigner:listOfReactantLinks>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_8964231_8827_alias1" product="entityVertex_8964231_8827" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="NW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.1357098817825317,-0.5200766921043396 0.219573974609375,-0.10498535633087158</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="2">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+<celldesigner:lineDirection index="4" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.2954372465610504,-0.14662577211856842 0.2954372465610504,-0.14662577211856842 0.948201060295105,0.01913421042263508 0.7868886590003967,-0.13824982941150665</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_8964344_8813_alias1" modifiers="entityVertex_8964344_8813" type="CATALYSIS" targetLineIndex="-1,6" editPoints="0.7882310748100281,0.29583868384361267 0.9417880773544312,-0.017924582585692406">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_8964344_8813_alias1" species="entityVertex_8964344_8813">
+    <celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_392129_9354" reversible="false" metaid="reactionVertex_392129_9354">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_113592_9355" metaid="reactionVertex_392129_9354_meta1_entityVertex_113592_9355">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_113592_9355_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_30389_9357" metaid="reactionVertex_392129_9354_meta2_entityVertex_30389_9357">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_30389_9357_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_111294_9356" metaid="reactionVertex_392129_9354_meta3_entityVertex_111294_9356">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_111294_9356_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_163622_9358" metaid="reactionVertex_392129_9354_meta4_entityVertex_163622_9358">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_163622_9358_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                    <modifierSpeciesReference species="entityVertex_396910_22" metaid="reactionVertex_392129_9354_meta5_entityVertex_396910_22">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_396910_22_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                    <modifierSpeciesReference species="entityVertex_392049_9359" metaid="reactionVertex_392129_9354_meta6_entityVertex_392049_9359">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392049_9359_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_113592_9355_alias1" species="entityVertex_113592_9355">
+<celldesigner:linkAnchor position="W"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_30389_9357_alias1" species="entityVertex_30389_9357">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_111294_9356_alias1" product="entityVertex_111294_9356" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="ESE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.8422889113426208,-0.16245292127132416 0.25597432255744934,0.42206424474716187</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.6564645767211914,0.20928356051445007 1.0177054405212402,0.06120070442557335 0.6564645767211914,0.20928356051445007</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_163622_9358_alias1" modifiers="entityVertex_163622_9358" type="CATALYSIS" targetLineIndex="-1,4" editPoints="0.9290531873703003,0.11223529279232025">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_163622_9358_alias1" species="entityVertex_163622_9358">
+    <celldesigner:linkAnchor position="N"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                            <celldesigner:modification aliases="entityVertex_396910_22_alias1" modifiers="entityVertex_396910_22" type="INHIBITION" targetLineIndex="-1,4" editPoints="0.9183443188667297,-0.091956228017807">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_396910_22_alias1" species="entityVertex_396910_22">
+    <celldesigner:linkAnchor position="S"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                            <celldesigner:modification aliases="entityVertex_392049_9359_alias1" modifiers="entityVertex_392049_9359" type="INHIBITION" targetLineIndex="-1,4" editPoints="1.003985047340393,0.1468527764081955">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_392049_9359_alias1" species="entityVertex_392049_9359">
+    <celldesigner:linkAnchor position="N"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8964311_8812" reversible="false" metaid="reactionVertex_8964311_8812">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_9628701_9360" metaid="reactionVertex_8964311_8812_meta1_entityVertex_9628701_9360">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_9628701_9360_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_392161_1758" metaid="reactionVertex_8964311_8812_meta2_entityVertex_392161_1758">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392161_1758_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8964344_8813" metaid="reactionVertex_8964311_8812_meta3_entityVertex_8964344_8813">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8964344_8813_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_9628701_9360_alias1" species="entityVertex_9628701_9360">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseReactant>
+                            <celldesigner:baseReactant alias="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+<celldesigner:linkAnchor position="N"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8964344_8813_alias1" species="entityVertex_8964344_8813">
+<celldesigner:linkAnchor position="W"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="2" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="3" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="1" num1="3" num2="0" tShapeIndex="0">0.36375129222869873,0.1468997299671173 0.04056183621287346,-0.0039636981673538685 0.06594759225845337,0.14153142273426056 1.0115082263946533,0.046339355409145355 0.11876765638589859,0.5802479386329651</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_8982640_9157" reversible="false" metaid="reactionVertex_8982640_9157">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_8982649_9054" metaid="reactionVertex_8982640_9157_meta1_entityVertex_8982649_9054">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982649_9054_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_420891_9158" metaid="reactionVertex_8982640_9157_meta2_entityVertex_420891_9158">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_420891_9158_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_167434_328" metaid="reactionVertex_8982640_9157_meta3_entityVertex_167434_328">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_167434_328_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_419779_1674" metaid="reactionVertex_8982640_9157_meta4_entityVertex_419779_1674">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_419779_1674_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_419779_1674" metaid="reactionVertex_8982640_9157_meta5_entityVertex_419779_1674">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_419779_1674_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_8982649_9054_alias1" species="entityVertex_8982649_9054">
+<celldesigner:linkAnchor position="N"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_420891_9158_alias1" species="entityVertex_420891_9158">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_167434_328_alias1" product="entityVertex_167434_328" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.0180855989456177,0.09092749655246735 0.23634980618953705,0.1660468876361847</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                            <celldesigner:productLink alias="entityVertex_419779_1674_alias1" product="entityVertex_419779_1674" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="NW"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>1.0721354484558105,-0.05974993109703064 0.1914329081773758,-0.665134072303772</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.3474527895450592,-0.02898341231048107 0.9959008097648621,-0.18513384461402893 1.4606471061706543,0.5544161796569824</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_419779_1674_alias1" modifiers="entityVertex_419779_1674" type="CATALYSIS" targetLineIndex="-1,6" editPoints="0.6254247426986694,-0.037705518305301666 0.8218938112258911,-0.15918247401714325">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_419779_1674_alias1" species="entityVertex_419779_1674">
+    <celldesigner:linkAnchor position="NW"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_420883_1671" reversible="false" metaid="reactionVertex_420883_1671">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_29438_9161" metaid="reactionVertex_420883_1671_meta1_entityVertex_29438_9161">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29438_9161_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_8982635_9053" metaid="reactionVertex_420883_1671_meta3_entityVertex_8982635_9053">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982635_9053_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_8982649_9054" metaid="reactionVertex_420883_1671_meta2_entityVertex_8982649_9054">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_8982649_9054_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_29420_9159" metaid="reactionVertex_420883_1671_meta4_entityVertex_29420_9159">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_29420_9159_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <listOfModifiers>
+                    <modifierSpeciesReference species="entityVertex_419779_1674" metaid="reactionVertex_420883_1671_meta5_entityVertex_419779_1674">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_419779_1674_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </modifierSpeciesReference>
+                </listOfModifiers>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_29438_9161_alias1" species="entityVertex_29438_9161">
+<celldesigner:linkAnchor position="SSW"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_8982649_9054_alias1" species="entityVertex_8982649_9054">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:listOfReactantLinks>
+                            <celldesigner:reactantLink alias="entityVertex_8982635_9053_alias1" reactant="entityVertex_8982635_9053" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="N"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.4337163269519806,0.37573954463005066 0.4337163269519806,0.37573954463005066</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:reactantLink>
+                        </celldesigner:listOfReactantLinks>
+                        <celldesigner:listOfProductLinks>
+                            <celldesigner:productLink alias="entityVertex_29420_9159_alias1" product="entityVertex_29420_9159" targetLineIndex="-1,1">
+<celldesigner:linkAnchor position="SE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+        <celldesigner:lineDirection index="2" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.9181054830551147,0.006350427400320768 0.8351301550865173,0.3404759168624878</celldesigner:editPoints>
+<celldesigner:line color="ff000000" width="1.0" type="Straight"/>
+                            </celldesigner:productLink>
+                        </celldesigner:listOfProductLinks>
+                        <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="2">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+<celldesigner:lineDirection index="3" value="unknown"/>
+<celldesigner:lineDirection index="4" value="unknown"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints>0.12426023930311203,-0.06420641392469406 0.12426023930311203,-0.06420641392469406 0.9911959767341614,-0.0033467926550656557 0.329687237739563,0.013885409571230412</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                        <celldesigner:listOfModification>
+                            <celldesigner:modification aliases="entityVertex_419779_1674_alias1" modifiers="entityVertex_419779_1674" type="CATALYSIS" targetLineIndex="-1,4" editPoints="0.31816908717155457,0.9972696900367737">
+<celldesigner:connectScheme connectPolicy="direct">
+    <celldesigner:listOfLineDirection>
+        <celldesigner:lineDirection index="0" value="unknown"/>
+        <celldesigner:lineDirection index="1" value="unknown"/>
+    </celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget alias="entityVertex_419779_1674_alias1" species="entityVertex_419779_1674">
+    <celldesigner:linkAnchor position="N"/>
+</celldesigner:linkTarget>
+<celldesigner:line color="ff000000" width="1.0"/>
+                            </celldesigner:modification>
+                        </celldesigner:listOfModification>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+            <reaction id="reactionVertex_751001_7019" reversible="false" metaid="reactionVertex_751001_7019">
+                <listOfReactants>
+                    <speciesReference species="entityVertex_392164_18" metaid="reactionVertex_751001_7019_meta1_entityVertex_392164_18">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392164_18_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                    <speciesReference species="entityVertex_167434_328" metaid="reactionVertex_751001_7019_meta2_entityVertex_167434_328">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_167434_328_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfReactants>
+                <listOfProducts>
+                    <speciesReference species="entityVertex_392165_6949" metaid="reactionVertex_751001_7019_meta3_entityVertex_392165_6949">
+                        <annotation>
+                            <celldesigner:extension>
+<celldesigner:alias>entityVertex_392165_6949_alias1</celldesigner:alias>
+                            </celldesigner:extension>
+                        </annotation>
+                    </speciesReference>
+                </listOfProducts>
+                <annotation>
+                    <celldesigner:extension>
+                        <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+                        <celldesigner:baseReactants>
+                            <celldesigner:baseReactant alias="entityVertex_392164_18_alias1" species="entityVertex_392164_18">
+<celldesigner:linkAnchor position="NW"/>
+                            </celldesigner:baseReactant>
+                            <celldesigner:baseReactant alias="entityVertex_167434_328_alias1" species="entityVertex_167434_328">
+<celldesigner:linkAnchor position="NNE"/>
+                            </celldesigner:baseReactant>
+                        </celldesigner:baseReactants>
+                        <celldesigner:baseProducts>
+                            <celldesigner:baseProduct alias="entityVertex_392165_6949_alias1" species="entityVertex_392165_6949">
+<celldesigner:linkAnchor position="NE"/>
+                            </celldesigner:baseProduct>
+                        </celldesigner:baseProducts>
+                        <celldesigner:connectScheme connectPolicy="direct">
+                            <celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="0"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="1" value="unknown" arm="1"/>
+<celldesigner:lineDirection index="0" value="unknown" arm="2"/>
+                            </celldesigner:listOfLineDirection>
+                        </celldesigner:connectScheme>
+                        <celldesigner:editPoints num0="1" num1="1" num2="0" tShapeIndex="0">0.8519560694694519,-0.12082284688949585 1.2722771167755127,-0.362461656332016 19.72640037536621,-9.454545021057129</celldesigner:editPoints>
+                        <celldesigner:line color="ff000000" width="1.0"/>
+                    </celldesigner:extension>
+                </annotation>
+            </reaction>
+        </listOfReactions>
+        <annotation>
+            <celldesigner:extension>
+                <celldesigner:modelVersion>4.0</celldesigner:modelVersion>
+                <celldesigner:modelDisplay sizeX="1600" sizeY="1153"/>
+                <celldesigner:listOfCompartmentAliases>
+                    <celldesigner:compartmentAlias compartment="compartmentVertex_70101_1" id="compartmentVertex_70101_1_alias1">
+                        <celldesigner:class>SQUARE</celldesigner:class>
+                        <celldesigner:bounds h="854.0" w="1227.0" x="173.0" y="150.0"/>
+                        <celldesigner:namePoint x="415.0" y="664.0"/>
+                        <celldesigner:doubleLine innerWidth="1.0" outerWidth="2.0" thickness="3.0"/>
+                        <celldesigner:paint color="ff000000" scheme="Color"/>
+                        <celldesigner:info state="empty" angle="-1.5700000524520874"/>
+                    </celldesigner:compartmentAlias>
+                </celldesigner:listOfCompartmentAliases>
+                <celldesigner:listOfComplexSpeciesAliases>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8982011_8841_alias1" species="entityVertex_8982011_8841">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="22.0" w="124.0" x="1328.0" y="551.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="124.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="124.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_420891_9158_alias1" species="entityVertex_420891_9158">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="22.0" w="114.0" x="128.0" y="775.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="114.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="114.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_392049_9359_alias1" species="entityVertex_392049_9359">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="50.0" w="157.0" x="893.0" y="967.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="157.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="157.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_419779_1674_alias1" species="entityVertex_419779_1674">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="34.0" w="68.0" x="447.0" y="976.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="34.0" width="68.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="34.0" width="68.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_396910_22_alias1" species="entityVertex_396910_22">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="53.0" w="115.0" x="969.0" y="138.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="115.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="115.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_392165_6949_alias1" species="entityVertex_392165_6949">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="49.0" w="97.0" x="264.0" y="136.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="49.0" width="97.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="49.0" width="97.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_749445_3271_alias1" species="entityVertex_749445_3271">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="79.0" w="116.0" x="100.0" y="473.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="79.0" width="116.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="79.0" width="116.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_392164_18_alias1" species="entityVertex_392164_18">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="52.0" w="78.0" x="540.0" y="129.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="52.0" width="78.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="52.0" width="78.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_392161_1758_alias1" species="entityVertex_392161_1758">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="41.0" w="77.0" x="776.0" y="131.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="41.0" width="77.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="41.0" width="77.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_420877_9123_alias1" species="entityVertex_420877_9123">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="55.0" w="103.0" x="303.0" y="965.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="55.0" width="103.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="55.0" width="103.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_749455_3237_alias1" species="entityVertex_749455_3237">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="76.0" w="127.0" x="107.0" y="270.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="76.0" width="127.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="76.0" width="127.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8964344_8813_alias1" species="entityVertex_8964344_8813">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="36.0" w="118.0" x="1213.0" y="138.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="118.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="118.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8964231_8827_alias1" species="entityVertex_8964231_8827">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="36.0" w="121.0" x="1337.0" y="349.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="121.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="121.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8982635_9053_alias1" species="entityVertex_8982635_9053">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="50.0" w="120.0" x="539.0" y="968.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="120.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="120.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_170665_21_alias1" species="entityVertex_170665_21">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="38.0" w="111.0" x="700.0" y="981.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="38.0" width="111.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="38.0" width="111.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8982015_8846_alias1" species="entityVertex_8982015_8846">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="22.0" w="125.0" x="1329.0" y="712.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="125.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="125.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_167434_328_alias1" species="entityVertex_167434_328">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="38.0" w="130.0" x="375.0" y="136.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="38.0" width="130.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="38.0" width="130.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_8982649_9054_alias1" species="entityVertex_8982649_9054">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="50.0" w="119.0" x="162.0" y="969.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="119.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="50.0" width="119.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                    <celldesigner:complexSpeciesAlias id="entityVertex_163622_9358_alias1" species="entityVertex_163622_9358">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="42.0" w="128.0" x="1104.0" y="974.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:backupSize w="0.0" h="0.0"/>
+                        <celldesigner:backupView state="none"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="42.0" width="128.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="42.0" width="128.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:complexSpeciesAlias>
+                </celldesigner:listOfComplexSpeciesAliases>
+                <celldesigner:listOfSpeciesAliases>
+                    <celldesigner:speciesAlias id="entityVertex_113592_9204_alias1" species="entityVertex_113592_9204">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="30.0" w="40.0" x="1343.0" y="173.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="30.0" width="40.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="30.0" width="40.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_9628701_9360_alias1" species="entityVertex_9628701_9360">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="22.0" w="31.0" x="1107.0" y="180.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="31.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="31.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_8982016_8840_alias1" species="entityVertex_8982016_8840">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="64.0" w="129.0" x="1330.0" y="423.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="64.0" width="129.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="64.0" width="129.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29420_9159_alias1" species="entityVertex_29420_9159">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="31.0" w="39.0" x="428.0" y="824.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="39.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="39.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_111885_9308_alias1" species="entityVertex_111885_9308">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="53.0" w="138.0" x="1286.0" y="892.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="138.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="138.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_921124_8058_alias1" species="entityVertex_921124_8058">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="42.0" w="124.0" x="602.0" y="259.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="42.0" width="124.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="42.0" width="124.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29438_9161_alias1" species="entityVertex_29438_9161">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="31.0" w="38.0" x="567.0" y="826.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="38.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="38.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29370_9205_alias1" species="entityVertex_29370_9205">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="30.0" w="41.0" x="1271.0" y="314.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="30.0" width="41.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="30.0" width="41.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29438_1961_alias1" species="entityVertex_29438_1961">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="31.0" w="38.0" x="256.0" y="322.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="38.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="38.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_113592_9355_alias1" species="entityVertex_113592_9355">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="33.0" w="54.0" x="1029.0" y="602.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="33.0" width="54.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="33.0" width="54.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29420_1159_alias1" species="entityVertex_29420_1159">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="31.0" w="39.0" x="257.0" y="482.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="39.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="31.0" width="39.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_397795_9301_alias1" species="entityVertex_397795_9301">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="59.0" w="132.0" x="446.0" y="249.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="59.0" width="132.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="59.0" width="132.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_30389_9357_alias1" species="entityVertex_30389_9357">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="29.0" w="56.0" x="851.0" y="655.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="29.0" width="56.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="29.0" width="56.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29372_9300_alias1" species="entityVertex_29372_9300">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="28.0" w="47.0" x="1310.0" y="663.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="47.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="47.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_111294_9356_alias1" species="entityVertex_111294_9356">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="28.0" w="55.0" x="848.0" y="555.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="55.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="55.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_29372_8978_alias1" species="entityVertex_29372_8978">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="28.0" w="47.0" x="589.0" y="208.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="47.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="28.0" width="47.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_380091_6948_alias1" species="entityVertex_380091_6948">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="53.0" w="107.0" x="138.0" y="135.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="107.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="53.0" width="107.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_8964276_9298_alias1" species="entityVertex_8964276_9298">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="22.0" w="84.0" x="1147.0" y="398.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="84.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="22.0" width="84.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="open" prefix="free input" label="P" angle="-3.4865801334381104"/>
+                    </celldesigner:speciesAlias>
+                    <celldesigner:speciesAlias id="entityVertex_8949487_8776_alias1" species="entityVertex_8949487_8776">
+                        <celldesigner:activity>inactive</celldesigner:activity>
+                        <celldesigner:bounds h="36.0" w="101.0" x="251.0" y="394.0"/>
+                        <celldesigner:font size="12"/>
+                        <celldesigner:view state="usual"/>
+                        <celldesigner:usualView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="101.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:usualView>
+                        <celldesigner:briefView>
+                            <celldesigner:innerPosition x="0" y="0"/>
+                            <celldesigner:boxSize height="36.0" width="101.0"/>
+                            <celldesigner:singleLine width="1.0"/>
+                            <celldesigner:paint color="00ffffff" scheme="Color"/>
+                        </celldesigner:briefView>
+                        <celldesigner:info state="empty" angle="-1.57"/>
+                    </celldesigner:speciesAlias>
+                </celldesigner:listOfSpeciesAliases>
+                <celldesigner:listOfGroups/>
+                <celldesigner:listOfProteins>
+                    <celldesigner:protein id="prot_entityVertex_8964276_9298" name="p_minus_Y419_minus_SRC" type="GENERIC"/>
+                    <celldesigner:protein id="prot_entityVertex_9628701_9360" name="SRC" type="GENERIC"/>
+                </celldesigner:listOfProteins>
+                <celldesigner:listOfGenes/>
+                <celldesigner:listOfRNAs/>
+                <celldesigner:listOfAntisenseRNAs/>
+                <celldesigner:listOfBlockDiagrams/>
+            </celldesigner:extension>
+        </annotation>
+    </model>
+</sbml>

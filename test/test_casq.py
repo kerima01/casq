@@ -61,6 +61,14 @@ def test_casq_produces_valid_files_on_reactome(tmp_path, infile):
         ("E_Prot", 4),  # order for Activity_space_pheno
         ("JNK", 0),
         ("Orf3a", 4),  # order for P65 cmplx and CASP1, TLR3 not receptor in SBGN
+        ("Nsp4_Nsp6", 0),
+        ("R-HSA-416482", 16),  # GDP/GTP not merged by cd2sbgnml (ref_species); 1 submap as phenotype; order of GTP factors
+        ("R-HSA-8964315", 7),  # PI(3,4,5)P3 not merged by cd2sbgnml (ref_species); order of PIP3:RhoA factors
+        ("R-HSA-397795", 3),  # PI(3,4,5)P3 not merged by cd2sbgnml (ref_species)
+        ("R-HSA-416476", 3),  # 3 isolated submaps as constant phenotypes in CD, skipped by readSBGN
+        ("R-HSA-418594", 18),  # 2 submaps as phenotypes; ATP/Pi/GDP/GTP not merged by cd2sbgnml (ref_species); "Mg2+ cofactor" label spacing differs
+        ("R-HSA-881907", 6),  # ADP/ATP not merged by cd2sbgnml (ref_species); 2 submaps as phenotypes
+        ("R-HSA-418555", 13),  # ATP/ADP not merged by cd2sbgnml (ref_species); 2 submaps as phenotypes; "Mg2+ cofactor" label spacing differs
     ],
 )
 def test_CD_and_SBGNML_similar(infile, diffs, change_test_dir):
@@ -79,6 +87,14 @@ def test_CD_and_SBGNML_similar(infile, diffs, change_test_dir):
             .replace("_ion", "")
             .replace("_simple_molecule", "")
             .replace("_rna", "_nucleic_acid_feature")
+            .replace("endoplasmic_space_reticulum", "endoplasmic_reticulum")
+            .replace("mitochondrial_space_matrix", "mitochondrial_matrix")
+            .replace("human_space_host", "human_host")
+            .replace("_unknown", "_drug")
+            .replace("_default_compartment_1", "")
+            .replace("_default_compartment_2", "")
+            .replace("_default_compartment", "")
+            .replace("_active", "")
             .splitlines(keepends=True)
         )
     with open(infile + "_SBGNML.bnet") as f:
@@ -88,6 +104,8 @@ def test_CD_and_SBGNML_similar(infile, diffs, change_test_dir):
             .replace("_Active", "")
             .replace("_active", "")
             .replace("_H+", "")
+            .replace("_unspecified_entity", "_drug")
+            .replace("_default_compartment", "")
             .splitlines(keepends=True)
         )
 
